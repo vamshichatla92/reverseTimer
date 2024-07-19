@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.app-container {
+  display: flex;
+  background-color: rgb(201, 213, 236);
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.a-part {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: sans-serif;
+  font-size: 29px;
+  font-style: italic;
+}
+.timer-num-cont {
+  background-color: aliceblue;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-part {
+  display: flex;
+  flex-direction: row;
+}
+.start-img {
+  height: 40px;
+  width: 40px;
+}
+.adj {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.c-part {
+  display: flex;
+  flex-direction: row;
+}
+.runnning-timer {
+  font-family: monospace;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
